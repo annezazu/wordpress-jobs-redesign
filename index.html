@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WordPress Jobs — Find Your Next WordPress Opportunity</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ======== Global Header ======== -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.5 122.5" width="36" height="36">
+          <g fill="#1e1e1e">
+            <path d="M8.7 61.3c0 20.4 11.9 38 29.1 46.3L12.6 39.1C10.1 46 8.7 53.5 8.7 61.3z"/>
+            <path d="M96.7 58.7c0-6.4-2.3-10.8-4.2-14.2-2.6-4.2-5-7.8-5-12 0-4.7 3.6-9.1 8.6-9.1h.6C86.7 14.3 74.5 8.7 61.3 8.7c-17.7 0-33.2 9.1-42.3 22.8 1.2 0 2.3.1 3.3.1 5.3 0 13.6-.6 13.6-.6 2.7-.2 3.1 3.9.3 4.2 0 0-2.8.3-5.8.5l18.4 54.6 11-33.1-7.9-21.5c-2.7-.2-5.3-.5-5.3-.5-2.7-.2-2.4-4.3.3-4.2 0 0 8.5.6 13.5.6 5.3 0 13.6-.6 13.6-.6 2.7-.2 3.1 3.9.3 4.2 0 0-2.8.3-5.8.5L85.3 90l5.1-17C93 66.5 96.7 62.1 96.7 58.7z"/>
+            <path d="M62.2 65.9l-15.2 44.3c4.5 1.3 9.3 2.1 14.3 2.1 5.9 0 11.5-1 16.8-2.8-.1-.2-.3-.5-.4-.7L62.2 65.9z"/>
+            <path d="M107.4 36c.4 3.2.7 6.6.7 10.3 0 10.1-1.9 21.5-7.6 35.7l-14.6 42.3c22.3-13 37.3-37.2 37.3-64.9 0-8.4-1.4-16.4-3.8-23.9l-12 .5z"/>
+            <path d="M61.3 0C27.4 0 0 27.4 0 61.3c0 33.8 27.4 61.3 61.3 61.3 33.8 0 61.3-27.4 61.3-61.3C122.5 27.4 95.1 0 61.3 0zM61.3 119.7c-32.2 0-58.4-26.2-58.4-58.4S29.1 2.8 61.3 2.8s58.4 26.2 58.4 58.4-26.2 58.5-58.4 58.5z"/>
+          </g>
+        </svg>
+        WordPress Jobs
+      </a>
+      <div class="site-header__right">
+        <nav class="site-header__nav">
+          <a href="index.html" class="active">Jobs</a>
+          <a href="faq.html">FAQ</a>
+          <a href="post-a-job.html" class="btn btn-primary btn-sm">Post a Job</a>
+        </nav>
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======== Hero Section ======== -->
+    <section class="hero">
+      <div class="hero__inner">
+        <h1>Find Your Next WordPress <span class="hero__highlight">Opportunity</span></h1>
+        <p>Browse open positions across the WordPress ecosystem — from development to design, support to community.</p>
+        <div class="hero__actions">
+          <a href="#jobs" class="btn btn-primary">Browse Jobs</a>
+          <a href="post-a-job.html" class="btn btn-outline">Post a Job</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-number">18</span>
+            <span class="hero__stat-label">Open Positions</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">6</span>
+            <span class="hero__stat-label">Categories</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">85%</span>
+            <span class="hero__stat-label">Remote Friendly</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== Filters ======== -->
+    <section class="filters" id="jobs">
+      <p class="filters__label">Filter by category</p>
+      <div class="filters__pills">
+        <button class="filter-pill active" data-category="all">All</button>
+        <button class="filter-pill" data-category="development">Development</button>
+        <button class="filter-pill" data-category="design">Design</button>
+        <button class="filter-pill" data-category="support">Support</button>
+        <button class="filter-pill" data-category="writing">Writing</button>
+        <button class="filter-pill" data-category="community">Community</button>
+        <button class="filter-pill" data-category="other">Other</button>
+      </div>
+    </section>
+
+    <!-- ======== Job Cards Grid ======== -->
+    <section class="jobs-section">
+      <div class="jobs-grid">
+
+        <!-- Job 1 -->
+        <a href="jobs/senior-wordpress-developer.html" class="job-card" data-category="development">
+          <span class="job-card__badge">Development</span>
+          <h2 class="job-card__title">Senior WordPress Developer</h2>
+          <p class="job-card__company">Automattic</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128188; Full Time</span>
+          </div>
+          <p class="job-card__date">Posted March 22, 2026</p>
+        </a>
+
+        <!-- Job 2 -->
+        <a href="jobs/plugin-developer.html" class="job-card" data-category="development">
+          <span class="job-card__badge">Development</span>
+          <h2 class="job-card__title">Plugin Developer</h2>
+          <p class="job-card__company">WooCommerce</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128196; Contract</span>
+          </div>
+          <p class="job-card__date">Posted March 21, 2026</p>
+        </a>
+
+        <!-- Job 3 -->
+        <a href="jobs/ux-designer.html" class="job-card" data-category="design">
+          <span class="job-card__badge">Design</span>
+          <h2 class="job-card__title">UX Designer</h2>
+          <p class="job-card__company">Developer Relations</p>
+          <div class="job-card__meta">
+            <span>&#128205; San Francisco, CA</span>
+            <span>&#128188; Full Time</span>
+          </div>
+          <p class="job-card__date">Posted March 20, 2026</p>
+        </a>
+
+        <!-- Job 4 -->
+        <a href="jobs/technical-support-engineer.html" class="job-card" data-category="support">
+          <span class="job-card__badge">Support</span>
+          <h2 class="job-card__title">Technical Support Engineer</h2>
+          <p class="job-card__company">Developer Resources</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128188; Full Time</span>
+          </div>
+          <p class="job-card__date">Posted March 20, 2026</p>
+        </a>
+
+        <!-- Job 5 -->
+        <a href="jobs/content-writer.html" class="job-card" data-category="writing">
+          <span class="job-card__badge">Writing</span>
+          <h2 class="job-card__title">Content Writer</h2>
+          <p class="job-card__company">WordPress.org Documentation</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#9201; Part Time</span>
+          </div>
+          <p class="job-card__date">Posted March 19, 2026</p>
+        </a>
+
+        <!-- Job 6 -->
+        <a href="jobs/community-manager.html" class="job-card" data-category="community">
+          <span class="job-card__badge">Community</span>
+          <h2 class="job-card__title">Community Manager</h2>
+          <p class="job-card__company">WordPress Foundation</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128188; Full Time</span>
+          </div>
+          <p class="job-card__date">Posted March 18, 2026</p>
+        </a>
+
+        <!-- Job 7 -->
+        <a href="jobs/theme-developer.html" class="job-card" data-category="development">
+          <span class="job-card__badge">Development</span>
+          <h2 class="job-card__title">Theme Developer</h2>
+          <p class="job-card__company">developer agency starter</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128196; Contract</span>
+          </div>
+          <p class="job-card__date">Posted March 17, 2026</p>
+        </a>
+
+        <!-- Job 8 -->
+        <a href="jobs/performance-engineer.html" class="job-card" data-category="development">
+          <span class="job-card__badge">Development</span>
+          <h2 class="job-card__title">Performance Engineer</h2>
+          <p class="job-card__company">Automattic</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128188; Full Time</span>
+          </div>
+          <p class="job-card__date">Posted March 16, 2026</p>
+        </a>
+
+        <!-- Job 9 -->
+        <a href="jobs/translation-lead.html" class="job-card" data-category="community">
+          <span class="job-card__badge">Community</span>
+          <h2 class="job-card__title">Translation Lead</h2>
+          <p class="job-card__company">WordPress Polyglots</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#9201; Part Time</span>
+          </div>
+          <p class="job-card__date">Posted March 15, 2026</p>
+        </a>
+
+        <!-- Job 10 -->
+        <a href="jobs/wordpress-migration-specialist.html" class="job-card" data-category="other">
+          <span class="job-card__badge">Other</span>
+          <h2 class="job-card__title">WordPress Migration Specialist</h2>
+          <p class="job-card__company">CloudPress Solutions</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128221; Project</span>
+          </div>
+          <p class="job-card__date">Posted March 14, 2026</p>
+        </a>
+
+        <!-- Job 11 -->
+        <a href="jobs/senior-wordpress-developer.html" class="job-card" data-category="development">
+          <span class="job-card__badge">Development</span>
+          <h2 class="job-card__title">Full Stack WordPress Engineer</h2>
+          <p class="job-card__company">Developer WordPress Agency</p>
+          <div class="job-card__meta">
+            <span>&#128205; London, UK</span>
+            <span>&#128188; Full Time</span>
+          </div>
+          <p class="job-card__date">Posted March 13, 2026</p>
+        </a>
+
+        <!-- Job 12 -->
+        <a href="jobs/ux-designer.html" class="job-card" data-category="design">
+          <span class="job-card__badge">Design</span>
+          <h2 class="job-card__title">Visual Designer</h2>
+          <p class="job-card__company">Developer Studio Group</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128196; Contract</span>
+          </div>
+          <p class="job-card__date">Posted March 12, 2026</p>
+        </a>
+
+        <!-- Job 13 -->
+        <a href="jobs/technical-support-engineer.html" class="job-card" data-category="support">
+          <span class="job-card__badge">Support</span>
+          <h2 class="job-card__title">Happiness Engineer</h2>
+          <p class="job-card__company">Automattic</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128188; Full Time</span>
+          </div>
+          <p class="job-card__date">Posted March 11, 2026</p>
+        </a>
+
+        <!-- Job 14 -->
+        <a href="jobs/content-writer.html" class="job-card" data-category="writing">
+          <span class="job-card__badge">Writing</span>
+          <h2 class="job-card__title">Technical Writer</h2>
+          <p class="job-card__company">Developer Relations</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128188; Full Time</span>
+          </div>
+          <p class="job-card__date">Posted March 10, 2026</p>
+        </a>
+
+        <!-- Job 15 -->
+        <a href="jobs/plugin-developer.html" class="job-card" data-category="development">
+          <span class="job-card__badge">Development</span>
+          <h2 class="job-card__title">Gutenberg Block Developer</h2>
+          <p class="job-card__company">Developer Interactive Agency</p>
+          <div class="job-card__meta">
+            <span>&#128205; Berlin, Germany</span>
+            <span>&#128188; Full Time</span>
+          </div>
+          <p class="job-card__date">Posted March 9, 2026</p>
+        </a>
+
+        <!-- Job 16 -->
+        <a href="jobs/community-manager.html" class="job-card" data-category="community">
+          <span class="job-card__badge">Community</span>
+          <h2 class="job-card__title">WordCamp Organizer</h2>
+          <p class="job-card__company">WordPress Community</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#9201; Part Time</span>
+          </div>
+          <p class="job-card__date">Posted March 8, 2026</p>
+        </a>
+
+        <!-- Job 17 -->
+        <a href="jobs/performance-engineer.html" class="job-card" data-category="support">
+          <span class="job-card__badge">Support</span>
+          <h2 class="job-card__title">WooCommerce Support Specialist</h2>
+          <p class="job-card__company">WooCommerce</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128188; Full Time</span>
+          </div>
+          <p class="job-card__date">Posted March 7, 2026</p>
+        </a>
+
+        <!-- Job 18 -->
+        <a href="jobs/theme-developer.html" class="job-card" data-category="design">
+          <span class="job-card__badge">Design</span>
+          <h2 class="job-card__title">UI/UX Researcher</h2>
+          <p class="job-card__company">Automattic</p>
+          <div class="job-card__meta">
+            <span>&#127758; Remote</span>
+            <span>&#128188; Full Time</span>
+          </div>
+          <p class="job-card__date">Posted March 6, 2026</p>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======== Global Footer ======== -->
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__columns">
+        <div class="site-footer__column">
+          <h4>About</h4>
+          <ul>
+            <li><a href="https://wordpress.org/about/">About WordPress</a></li>
+            <li><a href="https://wordpress.org/news/">News</a></li>
+            <li><a href="https://wordpress.org/hosting/">Hosting</a></li>
+            <li><a href="https://wordpress.org/donate/">Donate</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__column">
+          <h4>Learn</h4>
+          <ul>
+            <li><a href="https://learn.wordpress.org/">Learn WordPress</a></li>
+            <li><a href="https://developer.wordpress.org/">Developer Resources</a></li>
+            <li><a href="https://wordpress.org/documentation/">Documentation</a></li>
+            <li><a href="https://wordpress.org/support/">Support Forums</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__column">
+          <h4>Community</h4>
+          <ul>
+            <li><a href="https://make.wordpress.org/">Get Involved</a></li>
+            <li><a href="https://central.wordcamp.org/">WordCamp</a></li>
+            <li><a href="https://wordpress.tv/">WordPress.TV</a></li>
+            <li><a href="https://wordpress.org/showcase/">Showcase</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__column">
+          <h4>WordPress Jobs</h4>
+          <ul>
+            <li><a href="index.html">Current Openings</a></li>
+            <li><a href="post-a-job.html">Post a Job</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="https://wordpress.org/">WordPress.org</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <div class="site-footer__social">
+          <a href="https://twitter.com/WordPress" aria-label="WordPress on X">X / Twitter</a>
+          <a href="https://www.facebook.com/WordPress/" aria-label="WordPress on Facebook">Facebook</a>
+          <a href="https://www.youtube.com/wordpress" aria-label="WordPress on YouTube">YouTube</a>
+        </div>
+        <p class="site-footer__tagline">Code is Poetry.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
